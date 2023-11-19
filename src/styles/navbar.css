@@ -1,0 +1,46 @@
+.header {
+    background-color: rgb(34, 40, 49, 0.7);
+    position: absolute;
+    width: calc(100% - 20px); /* Genişlik ayarı, padding değeri çıkartılır */
+    top: 0;
+    left: 0;
+    padding: 10px;
+    box-shadow: 3px 3px 3px #393E46;
+    z-index: 2;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.header-li {
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 20px;
+    margin-right: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.header-logo {
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left:40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 6px;
+}

@@ -1,0 +1,90 @@
+.basket-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top:10vw;
+    width: 40%;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0 4px 4px #EEEEEE;
+}
+.basket-container h1 {
+    color:#EEEEEE;
+}
+.basket-item-button{
+    margin-bottom:30px;
+    border-radius: 10px;
+    padding:10px 15px;
+    background-color:#393E46;
+    color: #EEEEEE;
+    border-color: #EEEEEE;
+}
+.basket-container button:hover{
+    background-color: #242629;
+    cursor: pointer;
+}
+.basket-item{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:20px;
+    border-bottom: 1px solid white;
+}
+.basket-item-image{
+    margin-top: 10px;
+    margin-left:30px;
+    width: 100%;
+    max-width: 160px;
+    max-height: 160px;
+    height:100%;
+    border-radius: 10px;
+    margin-bottom:0;   
+}
+.basket-item-title{
+    font-size:20px;
+    margin-bottom:0;
+}
+.basket-item-rate{
+    margin-bottom:0;
+}
+ h2{
+    text-align: center;
+    color: #EEEEEE;
+}
+.basket-item-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.basket-item-quantity button {
+    background-color: #393E46;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.basket-item-quantity button:hover {
+    background-color: #242629;
+    border: 1px solid white;
+}
+
+.basket-item-quantity button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.basket-item-quantity button:disabled:hover {
+    background-color: #ccc;
+}
