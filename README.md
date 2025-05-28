@@ -1,6 +1,6 @@
 # 🛍️ Clothes Story
 
-**Clothes Story** is a simple e-commerce web application built with React and Vite. This project allows users to browse products, add or remove items from the cart, and view product details. While it doesn't include a payment gateway, it demonstrates a functional front-end shopping experience.
+**Clothes Story** is a simple e-commerce web application built with React and Vite. This project allows users to browse products, add or remove items from the cart, and view product details. While it doesn't include a payment gateway, it demonstrates a functional front-end shopping experience. 
 
 ---
 
